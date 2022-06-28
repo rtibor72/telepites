@@ -1,1 +1,1 @@
-#Telepítés
+Telepítés

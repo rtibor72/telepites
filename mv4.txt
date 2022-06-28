@@ -1,3 +1,5 @@
+Géza 1
+
 snapshot1
 
 [EN] [Keyboard settings] [Layout] Use system...: nem [Add] [Hungarian] [OK] [^] [Close]

@@ -1,0 +1,204 @@
+snapshot1
+
+[EN] [Keyboard settings] [Layout] Use system...: nem [Add] [Hungarian] [OK] [^] [Close]
+
+[Xfce Terminal] sudo wipefs -a /dev/vda [X]
+
+[Start the installer] [Online] [Következő] | [Következő] | [Következő] [*] Lemez törlése [Swap (hibernálással)] [btrfs] [Következő] [Xfce4] [Következő] [*] Zen Kernel [Következő] rt, rtmv4, y*m*, y*m* [Következő] [Telepítés] [Telepítés most] [Befejez] [X]
+[liveuser] [Shut Down] [Shut Down]
+
+snapshot2
+
+[Nézet] [Részletek] [Boot Options] SATA CDROM1: nem [Apply] [SATA CDROM1] Source path: "" [Apply]
+
+y*m*
+	[X] Welcome
+	[Xfce Terminal]
+		reflector-simple
+			[*] Austria [OK] [Save to...] y*m* [Hitelesítés]
+		UpdateInTerminal
+			y*m*
+			Eltávolítja a(z) yad... [i]
+			[Enter]
+		yay spice-vdagent
+		exit
+	[Leállítás]
+
+snapshot3
+
+Frissítés
+
+snapshot4
+snapshot5
+
+y*m*
+	[X] Welcome
+	[Xfce Terminal]
+
+		yay -S --needed zsh zsh-completions oh-my-zsh-git zsh-syntax-highlighting zsh-autosuggestions
+
+		cp /usr/share/oh-my-zsh/zshrc ~/.zshrc
+
+		nano ~/.zshrc
+			ZSH_THEME="ys"
+			...
+			source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+			source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.plugin.zsh
+
+		chsh -s /bin/zsh
+
+		--------
+		
+		yay gtk
+
+--------
+
+#		mc
+#		zsh
+#		zsh-completions
+#		rml-zsh-config
+
+#		pulseaudio
+#		pulseaudio-alsa <pipewire-alsa>
+#		pulseaudio-bluetooth
+
+#		xf86-video-intel
+#		intel-media-driver
+#		libva-vdpau-driver
+#		libvdpau-va-gl
+#		libva-utils
+#		vdpauinfo
+
+#		gnu-free-fonts
+
+		openbox
+
+		acpid
+
+		gtk2
+
+		arc-solid-gtk-theme
+
+		arc-icon-theme-full-git [AUR]
+
+		numix-icon-theme-git [AUR]
+
+		terminator
+
+		obconf
+		lxappearance-gtk3
+
+		dunst
+
+		tint2
+
+		udiskie
+
+		volumeicon
+
+		blueman
+
+		arandr
+
+		python-pyxdg
+
+		gsimplecal
+
+		conky
+		bc
+
+		chromium
+		doublecmd-gtk2
+		libunrar
+		p7zip
+		mpv
+		qalculate-gtk
+		xreader
+		gpicview
+		xorg-xhost
+
+		sublime-text
+
+		vmware-keymaps [AUR]
+		vmware-workstation [AUR]
+
+		xclip
+		gscreenshot [AUR]
+
+		pcmanfm-gtk3
+
+		python-asttokens
+		python-pgzero
+		thonny
+
+		dotnet-sdk
+		visual-studio-code-bin
+
+		gimp
+
+		inkscape
+
+		transmission-gtk
+
+		jdk-openjdk
+
+		godot-mono-bin [AUR]
+
+		netbeans
+
+		gtk-engine-murrine
+
+		pycharm-community-edition
+
+		gobject-introspection
+
+		glade
+
+		libreoffice-fresh
+		libreoffice-fresh-hu
+
+		l3afpad
+
+		min
+
+		turbovnc [AUR]
+
+		qt5ct
+		kvantum-qt5
+		arc-kde [AUR]
+
+		
+--------
+
+		[yay --needed zsh
+			2 (zsh) 7 (zsh-completions) 13 (oh-my-zsh-git) 10 (zsh-syntax-highlighting) 6 (zsh-autosuggestions)]
+
+		--------
+
+#		zsh
+#			1 1 0 2 1 3 1 e 0 4 0 0
+#
+#		--------
+#
+#		rtmv4% cat ./.zshrc    
+#		# Lines configured by zsh-newuser-install
+#		HISTFILE=~/.histfile
+#		HISTSIZE=1000
+#		SAVEHIST=1000
+#		bindkey -e
+#		# End of lines configured by zsh-newuser-install
+#		# The following lines were added by compinstall
+#		zstyle :compinstall filename '/home/rt/.zshrc'
+#
+#		autoload -Uz compinit
+#		compinit
+#		# End of lines added by compinstall
+#		rtmv4%
+#
+#		--------
+#
+#		nano ~/.zshrc
+#			autoload -Uz promptinit
+#			promptinit
+#
+#		cp ~/.zshrc ~/.zshrc.1

@@ -1,6 +1,3 @@
-Gizi 2
-Géza 2
-
 snapshot1
 
 [EN] [Keyboard settings] [Layout] Use system...: nem [Add] [Hungarian] [OK] [^] [Close]

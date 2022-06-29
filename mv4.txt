@@ -34,6 +34,9 @@ snapshot5
 y*m*
 	[X] Welcome
 	[Xfce Terminal]
+		mkdir -p _/git
+		cd _/git
+		git clone https://github.com/rtibor72/telepites
 
 		yay -S --needed zsh zsh-completions oh-my-zsh-git zsh-syntax-highlighting zsh-autosuggestions
 
@@ -49,7 +52,18 @@ y*m*
 
 		--------
 		
-		yay gtk
+		yay
+
+--------
+
+	Git
+	GTK
+	TurboVNC
+	VirtualGL
+
+	compositor
+		Picom (Átadja a GPU-nak az ablakkezelést?)
+	Enlightenment DE (Használható?)
 
 --------
 
